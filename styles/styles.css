@@ -141,3 +141,65 @@ summary:hover {
 .project-image {
     width: 50%;
 }
+
+/* Skills */
+#skills {
+    text-align: center;
+    margin: 5%;
+    text-decoration: underline;
+}
+
+.skills-conatiner {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+/* Contact me */
+#contact-me {
+
+    text-align: center;
+    
+}
+#contact-me a{
+    text-decoration: none;
+    color: #000000;
+    border: 1px #000000 solid;
+    padding: 10px;
+    margin: 2%;
+}
+
+#contact-me a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/* Contact page */
+#contact-intro {
+    display: flex;
+    flex-flow: column;
+    margin: 25%
+}
+
+#contact-buttons {
+    text-align: center;
+}
+
+#contact-buttons button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+  
+#contact-buttons button:hover {
+    background-color: white;
+    color: #04AA6D;
+  }
